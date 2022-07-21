@@ -1,5 +1,6 @@
 const btnClick = () => {
-  alert("I got clicked");
+  const audio = new Audio("sounds/crash.mp3");
+  audio.play();
 };
 const numberOfDrumButtons = document.querySelectorAll(".drum").length;
 
