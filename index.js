@@ -47,7 +47,7 @@ for (let i = 0; i < numberOfDrumButtons; i++) {
   });
 }
 
-///////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
 //Side Knowledge
 //Constructor Function ----- The first letter of the function name is actually capitalized in this case, contrary to the usual camelCase practise of naming variables
 
