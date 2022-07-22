@@ -4,15 +4,19 @@ const btnClick = () => {
 };
 const numberOfDrumButtons = document.querySelectorAll(".drum").length;
 
+//Keypress
 document.addEventListener("keydown", function (event) {
   action(event.key);
+  buttonAnimation(event.key);
 });
 
+//Mouse click
 for (let i = 0; i < numberOfDrumButtons; i++) {
   document.querySelectorAll(".drum")[i].addEventListener("click", function () {
     const buttonHTML = this.innerHTML;
 
     action(buttonHTML);
+    buttonAnimation(buttonHTML);
   });
 }
 
