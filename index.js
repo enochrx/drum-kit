@@ -53,6 +53,11 @@ const action = function (key) {
   }
 };
 
+const buttonAnimation = function (currentKey) {
+  const activeButton = document.querySelector("." + currentKey);
+  activeButton.classList.add("pressed");
+};
+
 //////////////////////////////////////////////////////////////////////////////
 //Side Knowledge
 //Constructor Function ----- The first letter of the function name is actually capitalized in this case, contrary to the usual camelCase practise of naming variables
